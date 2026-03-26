@@ -41,7 +41,7 @@ a {
   min-height: 76px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; width: 100%;
   gap: 24px;
 }
 
@@ -152,7 +152,7 @@ a {
 
 .footer-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; width: 100%;
   gap: 24px;
   align-items: center;
   font-size: 14px;
@@ -213,5 +213,44 @@ a {
   height: 4px;
   background: #A3FF3F;
   border-radius: 50%;
+}
+
+
+.brand-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.brand-text span {
+  font-size: 13px;
+  margin-left: 6px;
+  color: #5c6f69;
+}
+
+.hero-logo {
+  width: 260px;
+  margin-bottom: 24px;
+}
+
+.hero-logo {
+  width: 160px;
+  height: auto;
+}
+
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-inner img {
+  width: 160px;
+  flex-shrink: 0;
+}
+
+
+.menu {
+  margin-left: auto;
 }
 
