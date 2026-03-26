@@ -27,8 +27,9 @@ a {
   text-decoration: none;
 }
 
+/* ✅ 全局左右留白增强 */
 .container {
-  width: min(var(--max), calc(100% - 48px));
+  width: min(var(--max), calc(100% - 64px));
   margin: 0 auto;
 }
 
@@ -37,17 +38,21 @@ a {
   background: rgba(255,255,255,0.96);
 }
 
+/* ✅ 核心修复：header不贴边 */
 .nav {
   min-height: 74px;
   display: flex;
   align-items: center;
   width: 100%;
+  padding: 0 24px;
 }
 
+/* ✅ 品牌微调 */
 .brand-wrap {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  padding-left: 4px;
 }
 
 .brand {
@@ -194,7 +199,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
-    padding: 16px 0;
+    padding: 16px 24px;
   }
 
   .menu {
