@@ -46,7 +46,7 @@ a {
 }
 
 .brand-logo {
-  height: 42px;
+  height: 56px;
   width: auto;
   display: block;
 }
@@ -185,3 +185,4 @@ a {
     padding: 64px 0 52px;
   }
 }
+.brand-logo { image-rendering: -webkit-optimize-contrast; }
