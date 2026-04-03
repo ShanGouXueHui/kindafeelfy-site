@@ -6,11 +6,30 @@
   <title>隐私政策 | 略懂半解</title>
   <link rel="stylesheet" href="/assets/styles.css" />
   <link rel="icon" href="/assets/favicon.ico">
+<style>
+  .subpage-topbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .subpage-topbar .subpage-logo {
+    width: 44px;
+    max-width: 44px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .subpage-topbar a {
+    text-decoration: none;
+  }
+</style>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="/"><img src="/assets/logo.jpg" alt="略懂半解 logo" class="brand-logo" /></a>
+      <a class="brand" href="/"><img src="/assets/logo.jpg" alt="略懂半解 logo" class="brand-logo" / class="subpage-logo"></a>
       <nav class="menu">
         <a href="/">首页</a>
         <a href="/about.html">关于我们</a>
